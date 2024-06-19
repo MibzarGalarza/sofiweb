@@ -1,11 +1,5 @@
 import React from 'react'
+import mapa from '../components/mapa'
 
-const location = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
 
-export default location
+
