@@ -1,39 +1,43 @@
-import React from 'react'
-import NavBar from '../components/NavBar'
-import CARDSpaquetes from '../components/cards'
+import React from 'react';
+import NavBar from '../components/NavBar';
+import CARDSpaquetes from '../components/CARDS';
 
 const Home = () => {
-
-  const bodaHomeImg = 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg'
-  const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png'
+  const bodaHomeImg = 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg';
+  const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
 
   return (
-    <div className='grid h-screen w-auto max-h-screen overflow-y-scroll'>
-      <NavBar />
-      <>
-        <main className=''>
-          {/* FOTO PRINCIPAL */}
-          <div>
-            <div className="relative">
-              <h1 className='absolute text-white font-bold tracking-widest text-xl top-1/2 left-1/2 transform -translate-x-1/2 translate-y-52'>LA MEJOR MANERA DE</h1>
-              <h2 className='absolute text-white font-bold tracking-widest text-4xl top-10 left-1/2 transform -translate-x-1/2 translate-y-52'>Planear & Producir</h2>
-              <h2 className='absolute text-white font-bold tracking-widest text-4xl top-20 left-1/2 transform -translate-x-1/2 translate-y-52'>Eventos Excepcionales</h2>
-            </div>
-            <img src={bodaHomeImg} className='object-cover w-screen h-screen' alt="boda" />
+    <div className='relative h-screen w-auto overflow-y-scroll'>
+      <div className='fixed top-0 left-0 right-0 z-50'>
+        <NavBar />
+      </div>
+      <main>
+        {/* FOTO PRINCIPAL */}
+        <div className='relative'>
+          <img src={bodaHomeImg} className='object-cover w-screen h-screen' alt="boda" />
+          <div className='absolute inset-0 flex flex-col justify-center items-center text-white'>
+            <h1 className='font-bold tracking-widest text-xl'>LA MEJOR MANERA DE</h1>
+            <h2 className='font-bold tracking-widest text-4xl mt-4'>Planear & Producir</h2>
+            <h2 className='font-bold tracking-widest text-4xl'>Eventos Excepcionales</h2>
           </div>
+        </div>
 
-          {/* CARDS */}
-          <div className='h-screen w-screen p-28'>
+        {/* CARDS */}
+        <div className=' h-1/2 w-screen p-28 '>
+          <div className='grid justify-items-center  items-center text-center'>
             <h1>Nuestros servicios</h1>
-            <h2>Tu dia especial merece un lugar unico</h2>
-            <img className='h-40 w-auto' src={decoracionCARDS} alt="DECORACION" />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iste nesciunt quis facilis eum veniam perspiciatis libero natus qui, reprehenderit totam corrupti repellat dicta, quam tempora itaque quo corporis earum!</p>
-            <CARDSpaquetes />
+            <h2>Tu día especial merece un lugar único</h2>
+            <img className='object-cover h-8 w-auto' src={decoracionCARDS} alt="DECORACION" />
+            <h3 className='w-1/2 text-justify'>
+              En Eventos Sofi, nos especializamos en convertir cada evento en una experiencia inolvidable. Somos una empresa dedicada a la renta de mobiliario de alta calidad para todo tipo de eventos, ya sean bodas, cumpleaños, conferencias, fiestas corporativas, o cualquier celebración que imagines. Nuestro objetivo es brindar soluciones integrales y personalizadas para que cada detalle de tu evento sea perfecto.
+            </h3>
           </div>
-        </main>
-      </>
+          <CARDSpaquetes />
+        </div>
+
+      </main>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
