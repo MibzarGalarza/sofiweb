@@ -21,8 +21,7 @@ const CARDSpaquetes = () => {
   ];
 
   return (
-    <div className='bg-red-400 w-fit p-10'>
-      <h1 className='text-center text-white text-2xl mb-6'>Estas son las cards</h1>
+    <div className='w-fit p-10 mt-10'>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
         {cardsData.map((card, index) => (
           <Card key={index} image={card.image} title={card.title} description={card.description} />
