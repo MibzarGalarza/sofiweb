@@ -15,7 +15,7 @@ const CARDSpaquetes = () => {
     },
     {
       image: 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg',
-      title: 'Eventos Especiales',
+      title: 'Especiales',
       description: 'Discover'
     }
   ];

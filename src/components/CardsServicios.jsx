@@ -15,7 +15,7 @@ const CardsServicios = () => {
         },
         {
             image: 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg',
-            title: 'Eventos Especiales',
+            title: 'Especiales',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat felis nec justo faucibus, a volutpat eros efficitur. Aliquam erat volutpat.'
         }
     ];

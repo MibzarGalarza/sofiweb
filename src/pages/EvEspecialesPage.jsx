@@ -1,11 +1,12 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 
-const BodasPage = () => {
-    const bodaHomeImg = 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg';
+const EventosEspeciales = () => {
+    const eventos2 = 'src/assets/Erick WEB/FOTOS MURANO/eventos2.jpg';
     const flecha = 'src/assets/Erick WEB/arrow web.png';
     const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
-    const img5 = 'src/assets/Erick WEB/FOTOS MURANO/gallery9.jpg';
+    const img7 = 'src/assets/Erick WEB/FOTOS MURANO/gallery4.jpg';
+    const eventos = 'src/assets/Erick WEB/FOTOS MURANO/eventos.jpg'
 
     return (
         <div>
@@ -16,11 +17,11 @@ const BodasPage = () => {
                 <main>
                     {/* FOTO Y TITULO */}
                     <div className='relative font-serif'>
-                        <img src={bodaHomeImg} className='object-cover w-screen h-[500px]' alt="boda" />
+                        <img src={eventos} className='object-cover w-screen h-[500px]' alt="boda" />
                         <div>
                             <div className='absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white'>
                                 <h1 className='tracking-widest text-xl font-extralight'>NUESTROS SERVICIOS</h1>
-                                <h2 className='font-bold tracking-widest text-4xl mt-4'>BODAS</h2>
+                                <h2 className='font-bold tracking-widest text-4xl mt-4'>Eventos Especiales</h2>
                                 <a className='flex mt-10 hover:bg-red-400 hover:opacity-75 hover:text-xl hover:text-white hover:p-5 hover:rounded-xl' href="/Servicios">
                                     <img className='rotate-180 w-10 object-contain' src={flecha} alt="" />
                                     <h2 className='uppercase font-bold'>Servicios</h2>
@@ -35,7 +36,7 @@ const BodasPage = () => {
                     </div>
                     {/* FOTO Y TEXTO */}
                     <div className='flex justify-center items-center p-16 gap-5'>
-                        <img className='w-2/5 aspect-video object-cover' src={img5} alt="" />
+                        <img className='w-2/5 aspect-video object-cover' src={eventos2} alt="" />
                         <p className='flex w-2/5 text-justify'>Quisque fringilla malesuada malesuada. Quisque convallis fringilla orci id luctus. Nunc augue ligula, bibendum in augue nec, tempus suscipit magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum purus sit amet nunc venenatis, vitae fringilla leo hendrerit. Aenean porttitor lorem vitae enim commodo sodales. Cras condimentum egestas enim vel sollicitudin. Suspendisse et lacus commodo: Suspendisse scelerisque lacus venenatis eros congue malesuada.</p>
                     </div>
                     {/* PORTAFOLIO */}
@@ -52,19 +53,19 @@ const BodasPage = () => {
                         {/* PORTAFOLIO FOTOS */}
                         <div className='grid grid-cols-3 gap-5'>
                             <div className='grid justify-items-start'>
+                                <img className='object-cover w-80 aspect-square' src={img7} alt="" />
+                                <div className='mt-3 grid justify-items-start'>
+                                    <h2>PABLO CABRERA</h2>
+                                    <h3>25 de mayo del 2024</h3>
+                                </div>
+                            </div>
+                            {/* <div className='grid w-fit justify-items-start'>
                                 <img className='object-cover w-80 aspect-video' src={bodaHomeImg} alt="" />
                                 <div className='mt-3 grid justify-items-start'>
                                     <h2>GUSTAVO + CRISTINA</h2>
                                     <h3>25 de mayo del 2024</h3>
                                 </div>
-                            </div>
-                            <div className='grid w-fit justify-items-start'>
-                                <img className='object-cover w-80 aspect-video' src={bodaHomeImg} alt="" />
-                                <div className='mt-3 grid justify-items-start'>
-                                    <h2>GUSTAVO + CRISTINA</h2>
-                                    <h3>25 de mayo del 2024</h3>
-                                </div>
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>
@@ -74,4 +75,4 @@ const BodasPage = () => {
     )
 }
 
-export default BodasPage
+export default EventosEspeciales

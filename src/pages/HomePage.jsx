@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div>
       <>
-      <div className='relative h-screen w-auto overflow-y-scroll'>
+        <div className='relative h-screen w-auto overflow-y-scroll'>
           <div className='fixed top-0 left-0 right-0 z-50'>
             <NavBar />
           </div>
@@ -75,6 +75,12 @@ const Home = () => {
                   <a href="#" className='text-white border opacity-45 p-8 pt-1 pb-1 rounded-md border-black bg-black hover:bg-white hover:border-white hover:text-black hover:transition-all'>BOOK NOW</a>
                 </div>
               </div>
+            </div>
+            <div className="grid justify-items-center items-center text-center mt-10">
+              <h1 className="">NUESTRA GALERÍA</h1>
+              <img className='object-cover h-8 w-auto mt-5 mb-5' src={decoracionCARDS} alt="DECORACION" />                <p className="w-1/2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+              </p>
             </div>
             <Gallery />
           </main>
