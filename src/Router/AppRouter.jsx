@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { LayoutPublic } from "../layout/LayoutPublic";
 import { PublicRoutes } from "./PublicRoutes";
 import { PageNotFound } from "./NotFound";
-import { Home, Prueba, Locacion } from "../lazyImplemetation/LazyGeneral";
+import { Home, Servicios, Locacion, Bodas } from "../lazyImplemetation/LazyGeneral";
 
 
 
@@ -12,8 +12,9 @@ export const AppRouter = () => {
             <Route element={<LayoutPublic />}>
                 <Route element={<PublicRoutes />}>
                     <Route path="/" Component={Home} element={<Home />} />
-                    <Route path="/Prueba" Component={Prueba} element={<Prueba/>} />
-                    <Route path="/Locacion" Component={Locacion} element={<Locacion/>} />
+                    <Route path="/Locacion" Component={Locacion} element={<Locacion />} />
+                    <Route path="/Servicios" Component={Servicios} element={<Servicios />} />
+                    <Route path="/Bodas" Component={Bodas} element={<Bodas />} />
                 </Route>
             </Route>
             <Route

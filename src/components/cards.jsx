@@ -1,21 +1,21 @@
 import React from 'react';
-import Card from './card'; // Asegúrate de que la ruta de importación sea correcta
+import Card from './card'; 
 
 const CARDSpaquetes = () => {
   const cardsData = [
     {
       image: 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg',
-      title: 'Weddings',
+      title: 'Bodas',
       description: 'Discover'
     },
     {
       image: 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg',
-      title: 'Parties',
+      title: 'Fiestas',
       description: 'Discover'
     },
     {
       image: 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg',
-      title: 'Special Events',
+      title: 'Eventos Especiales',
       description: 'Discover'
     }
   ];

@@ -1,6 +1,9 @@
 import React from 'react'
 
 const Gallery = () => {
+
+    const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
+
     const img1 = 'src/assets/Erick WEB/FOTOS MURANO/Parties.jpg';
     const img2 = 'src/assets/Erick WEB/FOTOS MURANO/gallery5.jpg';
     const img3 = 'src/assets/Erick WEB/FOTOS MURANO/gallery6.jpg';
@@ -19,8 +22,7 @@ const Gallery = () => {
         <div className="w-screen h-screen font-serif p-16">
             <div className="grid justify-items-center items-center text-center mb-24">
                 <h1 className="">NUESTRA GALERÍA</h1>
-                <img src="ruta/a/tu/decoracionCARDS.jpg" className="object-cover h-8 w-auto mt-5 mb-5" alt="DECORACION" />
-                <p className="w-1/2">
+                <img className='object-cover h-8 w-auto mt-5 mb-5' src={decoracionCARDS} alt="DECORACION" />                <p className="w-1/2">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
                 </p>
             </div>
