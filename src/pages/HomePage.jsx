@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
-// import CARDSpaquetes from '../components/CARDS';
+import CARDSpaquetes from '../components/CARDS';
 import Gallery from '../components/galeriaHomePage';
 import FooterPage from '../components/footer';
 
@@ -38,7 +38,7 @@ const Home = () => {
                   En Eventos Sofi, nos especializamos en convertir cada evento en una experiencia inolvidable. Somos una empresa dedicada a la renta de mobiliario de alta calidad para todo tipo de eventos, ya sean bodas, cumpleaños, conferencias, fiestas corporativas, o cualquier celebración que imagines. Nuestro objetivo es brindar soluciones integrales y personalizadas para que cada detalle de tu evento sea perfecto.
                 </h3>
               </div>
-              {/* <CARDSpaquetes /> */}
+              <CARDSpaquetes />
             </div>
             {/* despues de cards */}
             <div className='bg-[#F1F1F1] w-screen h-1/2 -mt-24 p-28'>
