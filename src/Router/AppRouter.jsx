@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { LayoutPublic } from "../layout/LayoutPublic";
 import { PublicRoutes } from "./PublicRoutes";
 import { PageNotFound } from "./NotFound";
-import { Home, Servicios, Locacion, Bodas, Fiestas, Especiales, Galeria, Contacto } from "../lazyImplemetation/LazyGeneral";
+import { Home, Servicios, Bodas, Fiestas, Especiales, Galeria, Contacto } from "../lazyImplemetation/LazyGeneral";
 
 
 
