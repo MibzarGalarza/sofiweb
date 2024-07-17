@@ -4,15 +4,15 @@ const NavBar = () => {
     const logoSOFI = "src/assets/Erick WEB/logosofi.png"
 
     return (
-        <header className='absolute top-0 flex justify-center items-center p-5 h-24 bg-opacity-15 bg-[#D9D9D9] w-screen'>
-            <nav className='flex items-center space-x-4 text-black text-xl font-serif'>
-                <a className='bg-white bg-opacity-40 p-3 rounded-2xl' href="/Servicios">SERVICIOS</a>
-                <a className='bg-white bg-opacity-40 p-3 rounded-2xl' href="/Galeria">PORTAFOLIO</a>
+        <header className='absolute top-0 flex justify-center items-center p-5 h-24 bg-opacity-45 bg-red-300 w-screen'>
+            <nav className='flex items-center space-x-4'>
+                <a href="/Servicios">SERVICIOS</a>
+                <a href="/Portafolio">PORTAFOLIO</a>
                 <a href="/" className=''>
                     <img className='h-20 w-auto' src={logoSOFI} alt="LOGOTIPO" />
                 </a>
-                <a className='bg-white bg-opacity-40 p-3 rounded-2xl' href="/Galeria">NOSOTROS</a>
-                <a className='bg-white bg-opacity-40 p-3 rounded-2xl' href="/Contacto">CONTACTO</a>
+                <a href="/prueba">NOSOTROS</a>
+                <a href="/">CONTACTO</a>
             </nav>
         </header>
     )

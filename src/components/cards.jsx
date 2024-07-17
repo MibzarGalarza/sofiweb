@@ -9,12 +9,12 @@ const CARDSpaquetes = () => {
       description: 'Discover'
     },
     {
-      image: 'src/assets/Erick WEB/FOTOS MURANO/Parties.jpg',
+      image: 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg',
       title: 'Fiestas',
       description: 'Discover'
     },
     {
-      image: 'src/assets/Erick WEB/FOTOS MURANO/eventos.jpg',
+      image: 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg',
       title: 'Especiales',
       description: 'Discover'
     }
