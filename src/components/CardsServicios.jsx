@@ -9,12 +9,12 @@ const CardsServicios = () => {
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat felis nec justo faucibus, a volutpat eros efficitur. Aliquam erat volutpat.'
         },
         {
-            image: 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg',
+            image: 'src/assets/Erick WEB/FOTOS MURANO/Parties.jpg',
             title: 'Fiestas',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat felis nec justo faucibus, a volutpat eros efficitur. Aliquam erat volutpat.'
         },
         {
-            image: 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg',
+            image: 'src/assets/Erick WEB/FOTOS MURANO/eventos.jpg',
             title: 'Especiales',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat felis nec justo faucibus, a volutpat eros efficitur. Aliquam erat volutpat.'
         }

@@ -3,10 +3,7 @@ import NavBar from '../components/NavBar'
 import ContactForm from '../components/ContactForm';
 
 const Contacto = () => {
-    const eventos2 = 'src/assets/Erick WEB/FOTOS MURANO/eventos2.jpg';
-    const flecha = 'src/assets/Erick WEB/arrow web.png';
     const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
-    const img7 = 'src/assets/Erick WEB/FOTOS MURANO/gallery4.jpg';
     const eventos = 'src/assets/Erick WEB/FOTOS MURANO/eventos.jpg'
 
     return (

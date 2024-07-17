@@ -59,13 +59,6 @@ const FiestasPage = () => {
                                     <h3>25 de mayo del 2024</h3>
                                 </div>
                             </div>
-                            {/* <div className='grid w-fit justify-items-start'>
-                                <img className='object-cover w-80 aspect-video' src={bodaHomeImg} alt="" />
-                                <div className='mt-3 grid justify-items-start'>
-                                    <h2>GUSTAVO + CRISTINA</h2>
-                                    <h3>25 de mayo del 2024</h3>
-                                </div>
-                            </div> */}
                         </div>
 
                     </div>
