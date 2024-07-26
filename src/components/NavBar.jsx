@@ -13,6 +13,7 @@ const NavBar = () => {
                 </a>
                 <a className='bg-white bg-opacity-40 p-3 rounded-2xl' href="/Mobiliario">MOBILIARIO</a>
                 <a className='bg-white bg-opacity-40 p-3 rounded-2xl' href="/Contacto">CONTACTO</a>
+                <a className='bg-white bg-opacity-40 p-3 rounded-2xl' href="/Ubicacion">VISÍTANOS</a>
             </nav>
         </header>
     )
