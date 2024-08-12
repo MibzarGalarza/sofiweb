@@ -7,6 +7,7 @@ const Mobiliario = () => {
     const eventos = 'src/assets/Erick WEB/FOTOS MURANO/eventos.jpg';
     const pdfUrl = '/catalogos/Sillas.pdf';
     const pdfUrl2 = '/catalogos/Catálogo de productos sobre joyería elegante beige y gris.pdf';
+    const pdfUrl3 = '/catalogos/Catalogo Sofi.pdf';
 
     return (
         <div>
@@ -28,6 +29,17 @@ const Mobiliario = () => {
                         <img className='object-cover h-8 w-auto mt-5 mb-5' src={decoracionCARDS} alt="" />
                     </div>
                     {/* PDF VIEWER */}
+                    <h1 className='font-thin text-5xl'>CATÁLOGO SOFI</h1>
+                    <div className='flex items-center justify-center h-screen w-screen p-20'>
+                        <iframe
+                            src={pdfUrl3}
+                            width="100%"
+                            height="600px"
+                            style={{ border: 'none' }}
+                            title="PDF Viewer"
+                        />
+                    </div>
+                    <div className='w-screen h-24'></div>
                     <h1 className='font-thin text-5xl'>SILLAS</h1>
                     <div className='flex items-center justify-center h-screen w-screen p-20'>
                         <iframe
@@ -49,6 +61,7 @@ const Mobiliario = () => {
                             title="PDF Viewer"
                         />
                     </div>
+                    
                 </main>
                 <FooterPage />
             </div>
