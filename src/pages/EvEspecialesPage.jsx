@@ -1,5 +1,7 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
+import FooterPage from '../components/footer';
+
 
 const EventosEspeciales = () => {
     const eventos2 = 'src/assets/Erick WEB/FOTOS MURANO/eventos2.jpg';
@@ -70,6 +72,8 @@ const EventosEspeciales = () => {
 
                     </div>
                 </main>
+                <FooterPage />
+
             </div>
         </div>
     )

@@ -1,5 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
+import FooterPage from '../components/footer';
+
 
 
 const NuestrosEventos = () => {
@@ -48,6 +50,7 @@ const NuestrosEventos = () => {
                         </div>
                     </div>
                 </main>
+                <FooterPage />
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import PdfDownloader from '../components/PDFdownloader';
+import FooterPage from '../components/footer';
 
 
 const Mobiliario = () => {
@@ -41,6 +42,7 @@ const Mobiliario = () => {
                         />
                     </div>
                 </main>
+                <FooterPage />
             </div>
         </div>
     );

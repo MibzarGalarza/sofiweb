@@ -2,6 +2,8 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import Gallery from '../components/galeriaHomePage';
 import GalleryPageComp from '../components/galeriaPageComp';
+import FooterPage from '../components/footer';
+
 
 const GaleriaPage = () => {
     const eventos2 = 'src/assets/Erick WEB/FOTOS MURANO/eventos2.jpg';
@@ -33,8 +35,8 @@ const GaleriaPage = () => {
                         <img className='object-cover h-8 w-auto mt-5 mb-5' src={decoracionCARDS} alt="" />
                     </div>
                     <GalleryPageComp/>
-
                 </main>
+                <FooterPage />
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
+import FooterPage from '../components/footer';
 
 const BodasPage = () => {
     const bodaHomeImg = 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg';
@@ -62,6 +63,7 @@ const BodasPage = () => {
 
                     </div>
                 </main>
+                <FooterPage />
             </div>
         </div>
     )

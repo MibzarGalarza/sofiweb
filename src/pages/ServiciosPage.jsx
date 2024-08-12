@@ -1,6 +1,8 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import CardsServicios from '../components/CardsServicios';
+import FooterPage from '../components/footer';
+
 
 const ServiciosPage = () => {
     const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
@@ -19,6 +21,7 @@ const ServiciosPage = () => {
                 </div>
             </div>
             <CardsServicios />
+            <FooterPage />
         </div>
     );
 };

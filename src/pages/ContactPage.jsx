@@ -1,6 +1,8 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 import ContactForm from '../components/ContactForm';
+import FooterPage from '../components/footer';
+
 
 const Contacto = () => {
     const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
@@ -37,6 +39,7 @@ const Contacto = () => {
                     </div>
                     <div></div>
                 </main>
+                <FooterPage />
             </div>
         </div>
     )

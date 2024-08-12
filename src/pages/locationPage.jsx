@@ -1,5 +1,7 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
+import FooterPage from '../components/footer';
+
 
 const locationPage = () => {
     const img1 = 'src/assets/Erick WEB/FOTOS MURANO/Parties.jpg';
@@ -25,6 +27,7 @@ const locationPage = () => {
 
                     </div>
                 </main>
+                <FooterPage />
             </div>
         </div>
     )
