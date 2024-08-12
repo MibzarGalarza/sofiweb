@@ -28,7 +28,7 @@ const GalleryPageComp = () => {
     return (
         <div className="w-screen h- font-serif p-16">
             <div className="grid grid-cols-3 gap-2">
-                <div className="flex flex-col gap-5 h-screen">
+                <div className="flex flex-col gap-5 ">
                     <img className="w-full -mb-3 aspect-auto object-cover" src={img1} />
                     <img className="w-full -mb-3 aspect-video object-cover" src={img4} />
                     <img className="w-full -mb-3 aspect-auto object-cover" src={img7} />
@@ -37,7 +37,7 @@ const GalleryPageComp = () => {
                     <img className="w-full -mb-3 aspect-square object-cover" src={img16} />
                     <img className="w-full -mb-3 aspect-auto object-cover" src={img19} />
                 </div>
-                <div className="flex flex-col gap-5 h-screen">
+                <div className="flex flex-col gap-5 ">
                     <img className="w-full -mb-3 aspect-videp object-cover" src={img2} />
                     <img className="w-full -mb-3 aspect-auto object-cover" src={img5} />
                     <img className="w-full -mb-3 aspect-video object-cover" src={img8} />
@@ -47,7 +47,7 @@ const GalleryPageComp = () => {
                     <img className="w-full -mb-3 aspect-square object-cover" src={img20} />
                     <img className="w-full -mb-3 aspect-auto object-cover" src={img23} />
                 </div>
-                <div className="flex flex-col gap-5 h-screen">
+                <div className="flex flex-col gap-5 ">
                     <img className="w-full -mb-3 aspect-auto object-cover" src={img3} />
                     <img className="w-full -mb-3 aspect-video object-cover" src={img6} />
                     <img className="w-full -mb-3 aspect-square object-cover" src={img9} />

@@ -1,6 +1,20 @@
-#root {
+
+body,
+html {
+  overflow-x: hidden;
+  /* Oculta las scrollbars horizontales */
+  overflow-y: auto;
+  /* Mantiene el desplazamiento vertical si es necesario */
+}
+
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+
   text-align: center;
 }
 
