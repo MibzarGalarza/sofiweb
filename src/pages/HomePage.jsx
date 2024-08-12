@@ -9,6 +9,9 @@ const Home = () => {
   const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
   const aboutUSimg = 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/PAGES/aboutUSimg.jpeg';
   const startTodayIMG = 'src/assets/Erick WEB/FOTOS MURANO/pilares.jpeg';
+  const insta = 'src/assets/Erick WEB/FOTOS MURANO/Instagram.png'
+  const face = 'src/assets/Erick WEB/FOTOS MURANO/facebook.png'
+
 
   return (
     <div>
@@ -54,9 +57,15 @@ const Home = () => {
               <div className=''>
                 <h1 className='font-serif font-extralight tracking-widest text-2xl text-left'>ABOUT US</h1>
                 <h2 className='leading-10 text-3xl text-left tracking-widest mt-5 mb-5'>Sorprender a tus invitados nunca ha sido tan espectacular.</h2>
-                <p className='font-serif text-sm text-start'>Nullam suscipit tempor interdum. Aenean magna odio, vulputate eget erat nec, vulputate sagittis libero. Praesent in leo risus. Nunc viverra faucibus mauris nec ultrices. In hac habitasse platea dictumst.</p>
-                <div className='mt-10'>
-                  <a href="/Conocenos" className='border border-black rounded-md p-2 hover:bg-black hover:border-none hover:text-white hover:transition-all'>Conocenos</a>
+                <p className='font-serif text-sm text-start'>Contáctanos en nuestras redes sociales</p>
+                <p className='font-serif text-sm text-start'>encuéntranos en...</p>
+                <div className='flex flex-row justify-center gap-5 items-center p-5 mt-10 bg-gray-700 rounded-md '>
+                  <a href="" className='w-16'>
+                    <img src={insta} alt="INSTAGRAM" />
+                  </a>
+                  <a href="" className='w-16'>
+                    <img src={face} alt="FACEBOOK" />
+                  </a>
                 </div>
               </div>
             </div>
