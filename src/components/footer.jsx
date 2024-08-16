@@ -1,7 +1,7 @@
 import React from 'react';
 
 const FooterPage = () => {
-    const logoSOFI = "src/assets/Erick WEB/logosofi.png"
+    const logoSOFI = "./assets/Erick WEB/logosofi.png"
     return (
         <footer className="bg-[#292929] text-white py-6 mt-16">
             <div className="container mx-auto text-center">

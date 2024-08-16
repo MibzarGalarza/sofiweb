@@ -2,28 +2,28 @@ import React from 'react'
 
 const GalleryPageComp = () => {
 
-    const img1 = 'src/assets/Erick WEB/FOTOS MURANO/Parties.jpg';
-    const img2 = 'src/assets/Erick WEB/FOTOS MURANO/gallery5.jpg';
-    const img3 = 'src/assets/Erick WEB/FOTOS MURANO/gallery6.jpg';
-    const img4 = 'src/assets/Erick WEB/FOTOS MURANO/gellery1.jpeg';
-    const img5 = 'src/assets/Erick WEB/FOTOS MURANO/gallery9.jpg';
-    const img6 = 'src/assets/Erick WEB/FOTOS MURANO/gallery8.jpg';
-    const img7 = 'src/assets/Erick WEB/FOTOS MURANO/gallery4.jpg';
-    const img8 = 'src/assets/Erick WEB/FOTOS MURANO/gallery12.jpeg';
-    const img9 = 'src/assets/Erick WEB/FOTOS MURANO/gallery7.jpg';
-    const img10 = 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/gallery11.jpeg';
-    const img11 = 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/gallery10.jpeg';
-    const img12 = 'src/assets/Erick WEB/FOTOS MURANO/gellery2.jpeg';
-    const img13 = 'src/assets/Erick WEB/FOTOS MURANO/galeria.jpg'
-    const img14 = 'src/assets/Erick WEB/FOTOS MURANO/galeria2.jpg'
-    const img15 = 'src/assets/Erick WEB/FOTOS MURANO/gallery7.jpg'
-    const img16 = 'src/assets/Erick WEB/FOTOS MURANO/galeria3.jpg'
-    const img17 = 'src/assets/Erick WEB/FOTOS MURANO/gellery1.jpeg'
-    const img18 = 'src/assets/Erick WEB/FOTOS MURANO/pastel.jpg'
-    const img19 = 'src/assets/Erick WEB/FOTOS MURANO/eventos2.jpg'
-    const img20 = 'src/assets/Erick WEB/FOTOS MURANO/casados.jpg'
-    const img21 = 'src/assets/Erick WEB/FOTOS MURANO/copa.jpeg'
-    const img23 = 'src/assets/Erick WEB/FOTOS MURANO/florMorada.jpg'
+    const img1 = './assets/Erick WEB/FOTOS MURANO/Parties.jpg';
+    const img2 = './assets/Erick WEB/FOTOS MURANO/gallery5.jpg';
+    const img3 = './assets/Erick WEB/FOTOS MURANO/gallery6.jpg';
+    const img4 = './assets/Erick WEB/FOTOS MURANO/gellery1.jpeg';
+    const img5 = './assets/Erick WEB/FOTOS MURANO/gallery9.jpg';
+    const img6 = './assets/Erick WEB/FOTOS MURANO/gallery8.jpg';
+    const img7 = './assets/Erick WEB/FOTOS MURANO/gallery4.jpg';
+    const img8 = './assets/Erick WEB/FOTOS MURANO/gallery12.jpeg';
+    const img9 = './assets/Erick WEB/FOTOS MURANO/gallery7.jpg';
+    const img10 = './assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/gallery11.jpeg';
+    const img11 = './assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/gallery10.jpeg';
+    const img12 = './assets/Erick WEB/FOTOS MURANO/gellery2.jpeg';
+    const img13 = './assets/Erick WEB/FOTOS MURANO/galeria.jpg'
+    const img14 = './assets/Erick WEB/FOTOS MURANO/galeria2.jpg'
+    const img15 = './assets/Erick WEB/FOTOS MURANO/gallery7.jpg'
+    const img16 = './assets/Erick WEB/FOTOS MURANO/galeria3.jpg'
+    const img17 = './assets/Erick WEB/FOTOS MURANO/gellery1.jpeg'
+    const img18 = './assets/Erick WEB/FOTOS MURANO/pastel.jpg'
+    const img19 = './assets/Erick WEB/FOTOS MURANO/eventos2.jpg'
+    const img20 = './assets/Erick WEB/FOTOS MURANO/casados.jpg'
+    const img21 = './assets/Erick WEB/FOTOS MURANO/copa.jpeg'
+    const img23 = './assets/Erick WEB/FOTOS MURANO/florMorada.jpg'
 
     return (
         <div className="w-screen h- font-serif p-16">

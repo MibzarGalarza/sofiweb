@@ -4,11 +4,11 @@ import FooterPage from '../components/footer';
 
 
 const EventosEspeciales = () => {
-    const eventos2 = 'src/assets/Erick WEB/FOTOS MURANO/eventos2.jpg';
-    const flecha = 'src/assets/Erick WEB/arrow web.png';
-    const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
-    const img7 = 'src/assets/Erick WEB/FOTOS MURANO/gallery4.jpg';
-    const eventos = 'src/assets/Erick WEB/FOTOS MURANO/eventos.jpg'
+    const eventos2 = './assets/Erick WEB/FOTOS MURANO/eventos2.jpg';
+    const flecha = './assets/Erick WEB/arrow web.png';
+    const decoracionCARDS = './assets/Erick WEB/decoracion textos.png';
+    const img7 = './assets/Erick WEB/FOTOS MURANO/gallery4.jpg';
+    const eventos = './assets/Erick WEB/FOTOS MURANO/eventos.jpg'
 
     return (
         <div>

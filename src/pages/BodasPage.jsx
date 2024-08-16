@@ -3,10 +3,10 @@ import NavBar from '../components/NavBar'
 import FooterPage from '../components/footer';
 
 const BodasPage = () => {
-    const bodaHomeImg = 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg';
-    const flecha = 'src/assets/Erick WEB/arrow web.png';
-    const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
-    const img5 = 'src/assets/Erick WEB/FOTOS MURANO/gallery9.jpg';
+    const bodaHomeImg = './assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg';
+    const flecha = './assets/Erick WEB/arrow web.png';
+    const decoracionCARDS = './assets/Erick WEB/decoracion textos.png';
+    const img5 = './assets/Erick WEB/FOTOS MURANO/gallery9.jpg';
 
     return (
         <div>

@@ -4,11 +4,11 @@ import FooterPage from '../components/footer';
 
 
 const FiestasPage = () => {
-    const img1 = 'src/assets/Erick WEB/FOTOS MURANO/Parties.jpg';
-    const flecha = 'src/assets/Erick WEB/arrow web.png';
-    const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
-    const PosadaPIZZA = 'src/assets/Erick WEB/FOTOS MURANO/PosadaPIZZA.jpg';
-    const IMGfiesta = 'src/assets/Erick WEB/FOTOS MURANO/FiestasIMG.jpg'
+    const img1 = './assets/Erick WEB/FOTOS MURANO/Parties.jpg';
+    const flecha = './assets/Erick WEB/arrow web.png';
+    const decoracionCARDS = './assets/Erick WEB/decoracion textos.png';
+    const PosadaPIZZA = './assets/Erick WEB/FOTOS MURANO/PosadaPIZZA.jpg';
+    const IMGfiesta = './assets/Erick WEB/FOTOS MURANO/FiestasIMG.jpg'
 
     return (
         <div>

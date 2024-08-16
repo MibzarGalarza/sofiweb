@@ -1,7 +1,7 @@
 import React from 'react'
 
 const NavBar = () => {
-    const logoSOFI = "src/assets/Erick WEB/logosofi.png"
+    const logoSOFI = "./assets/Erick WEB/logosofi.png"
 
     return (
         <header className='absolute top-0 flex justify-center items-center p-5 h-24 bg-opacity-15 bg-[#D9D9D9] w-screen'>

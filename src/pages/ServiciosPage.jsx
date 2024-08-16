@@ -5,7 +5,7 @@ import FooterPage from '../components/footer';
 
 
 const ServiciosPage = () => {
-    const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
+    const decoracionCARDS = './assets/Erick WEB/decoracion textos.png';
 
     return (
         <div>

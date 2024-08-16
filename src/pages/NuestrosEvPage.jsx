@@ -5,10 +5,10 @@ import FooterPage from '../components/footer';
 
 
 const NuestrosEventos = () => {
-    const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
-    const bodaHomeImg = 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg';
-    const img7 = 'src/assets/Erick WEB/FOTOS MURANO/gallery4.jpg';
-    const PosadaPIZZA = 'src/assets/Erick WEB/FOTOS MURANO/PosadaPIZZA.jpg';
+    const decoracionCARDS = './assets/Erick WEB/decoracion textos.png';
+    const bodaHomeImg = './assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg';
+    const img7 = './assets/Erick WEB/FOTOS MURANO/gallery4.jpg';
+    const PosadaPIZZA = './assets/Erick WEB/FOTOS MURANO/PosadaPIZZA.jpg';
 
 
     return (

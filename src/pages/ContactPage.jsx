@@ -5,8 +5,8 @@ import FooterPage from '../components/footer';
 
 
 const Contacto = () => {
-    const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
-    const eventos = 'src/assets/Erick WEB/FOTOS MURANO/eventos.jpg'
+    const decoracionCARDS = './assets/Erick WEB/decoracion textos.png';
+    const eventos = './assets/Erick WEB/FOTOS MURANO/eventos.jpg'
 
     return (
         <div className='overflow-y-scroll'>

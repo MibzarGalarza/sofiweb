@@ -4,8 +4,8 @@ import GalleryPageComp from '../components/galeriaPageComp';
 import FooterPage from '../components/footer';
 
 const GaleriaPage = () => {
-    const eventos = 'src/assets/Erick WEB/FOTOS MURANO/eventos.jpg';
-    const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
+    const eventos = './assets/Erick WEB/FOTOS MURANO/eventos.jpg';
+    const decoracionCARDS = './assets/Erick WEB/decoracion textos.png';
 
     return (
         <div className="flex flex-col min-h-screen">

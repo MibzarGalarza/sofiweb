@@ -4,7 +4,7 @@ import FooterPage from '../components/footer';
 
 
 const locationPage = () => {
-    const img1 = 'src/assets/Erick WEB/FOTOS MURANO/Parties.jpg';
+    const img1 = './assets/Erick WEB/FOTOS MURANO/Parties.jpg';
 
     return (
         <div>
