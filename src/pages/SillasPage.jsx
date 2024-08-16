@@ -6,7 +6,7 @@ const Mobiliario = () => {
     const decoracionCARDS = './assets/Erick WEB/decoracion textos.png';
     const eventos = './assets/Erick WEB/FOTOS MURANO/eventos.jpg';
     const pdfUrl = '/catalogos/Sillas.pdf';
-    const pdfUrl2 = '/catalogos/Catálogo de Servicios.pdf';
+    const pdfUrl2 = '/catalogos/Catálogo de productos sobre joyería elegante beige y gris.pdf';
     const pdfUrl3 = '/catalogos/Catalogo Sofi.pdf';
 
     return (
