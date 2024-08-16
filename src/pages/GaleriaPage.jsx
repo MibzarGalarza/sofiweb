@@ -24,7 +24,8 @@ const GaleriaPage = () => {
 
                 {/* TEXTO */}
                 <div className="grid justify-items-center bg-[#F1F1F1] w-full text-center text-xl p-28">
-                    <p className="w-1/2">Aliquam commodo velit at pretium viverra. Donec sed pulvinar massa. Curabitur sollicitudin nisl et condimentum suscipit. Phasellus lacinia interdum lorem, quis egestas nibh scelerisque vitae.</p>
+                    <p className="w-1/2">
+                    Explora nuestra galería y déjate llevar por la esencia de Eventos Sofi. Aquí, cada foto cuenta una historia, capturando los momentos únicos y los detalles que hacen de cada evento algo especial. Desde bodas llenas de magia hasta fiestas inolvidables, nuestras imágenes reflejan el cariño y la dedicación que ponemos en cada celebración. ¡Inspírate con lo que podemos crear juntos!</p>
                     <img className="object-cover h-8 w-auto mt-5 mb-5" src={decoracionCARDS} alt="Decoración" />
                 </div>
 

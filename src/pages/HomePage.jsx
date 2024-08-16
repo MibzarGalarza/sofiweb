@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
-import CARDSpaquetes from '../components/CARDS';
+import CARDSpaquetes from '../components/cards';
 import Gallery from '../components/galeriaHomePage';
 import FooterPage from '../components/footer';
 
@@ -47,7 +47,7 @@ const Home = () => {
           <div className='bg-[#F1F1F1] w-screen h-1/2 -mt-24 p-28'>
             <div className='grid justify-items-center items-center text-center text-xl font-serif'>
               <p className='mb-5'>Ariana Anderson & Steve Anderson</p>
-              <p className='w-1/2 text-center'> Aliquam commodo velit at pretium viverra. Donec sed pulvinar massa. Curabitur sollicitudin nisl et condimentum suscipit. Phasellus lacinia interdum lorem, quis egestas nibh scelerisque vitae.</p>
+              <p className='w-1/2 text-center'> "Gracias a Eventos Sofi, nuestra boda fue perfecta. Su profesionalismo y atención a cada detalle hicieron que todo saliera tal como lo soñamos. Nos sentimos tranquilos sabiendo que estábamos en las mejores manos, y el resultado fue un evento inolvidable. ¡La recomendamos al 100%!"</p>
             </div>
           </div>
 
@@ -59,11 +59,11 @@ const Home = () => {
                 <h2 className='leading-10 text-3xl text-left tracking-widest mt-5 mb-5'>Sorprender a tus invitados nunca ha sido tan espectacular.</h2>
                 <p className='font-serif text-sm text-start'>Contáctanos en nuestras redes sociales</p>
                 <p className='font-serif text-sm text-start'>encuéntranos en...</p>
-                <div className='flex flex-row justify-center gap-5 items-center p-5 mt-10 bg-gray-700 rounded-md '>
-                  <a href="" className='w-16'>
+                <div className='flex flex-row justify-center gap-5 items-center p-5 mt-10 bg-zinc-800 rounded-md '>
+                  <a href="https://www.instagram.com/eventossofi_dgo?igsh=MWRsc2E1OHRka3p3Zw==" className='w-10'>
                     <img src={insta} alt="INSTAGRAM" />
                   </a>
-                  <a href="" className='w-16'>
+                  <a href="https://www.facebook.com/share/aaaf9i4ZgNPAUQUf/?mibextid=LQQJ4d" className='w-12'>
                     <img src={face} alt="FACEBOOK" />
                   </a>
                 </div>
@@ -78,10 +78,9 @@ const Home = () => {
           <div className='relative font-serif'>
             <img src={startTodayIMG} alt="PILARES" className='w-[1462px] h-[388px] object-cover' />
             <div className='absolute inset-60 flex flex-col justify-center items-center text-white'>
-              <h2 className='text-xl'>START TODAY</h2>
-              <h1 className='text-4xl'>Would you like to live a delightful tailored experience?</h1>
+              <h1 className='text-4xl'>Quieres vivir una hermosa experiencia?</h1>
               <div className='mt-10'>
-                <a href="#" className='text-white border opacity-45 p-8 pt-1 pb-1 rounded-md border-black bg-black hover:bg-white hover:border-white hover:text-black hover:transition-all'>BOOK NOW</a>
+                
               </div>
             </div>
           </div>
@@ -91,7 +90,7 @@ const Home = () => {
             <h1 className="">NUESTRA GALERÍA</h1>
             <img className='object-cover h-8 w-auto mt-5 mb-5' src={decoracionCARDS} alt="DECORACION" />
             <p className="w-1/2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+            "Explora nuestra galería de imágenes y descubre la magia de los eventos que hemos creado. Desde bodas elegantes hasta celebraciones únicas, cada foto captura la dedicación y el detalle con los que transformamos tus sueños en realidad. ¡Déjate inspirar por nuestros trabajos más recientes!"
             </p>
           </div>
           <Gallery />

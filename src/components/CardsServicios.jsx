@@ -6,17 +6,17 @@ const CardsServicios = () => {
         {
             image: 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg',
             title: 'Bodas',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat felis nec justo faucibus, a volutpat eros efficitur. Aliquam erat volutpat.'
+            description: 'Creamos bodas únicas y personalizadas, cuidando cada detalle para que tu día especial sea exactamente como lo soñaste, lleno de momentos inolvidables.'
         },
         {
             image: 'src/assets/Erick WEB/FOTOS MURANO/Parties.jpg',
             title: 'Fiestas',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat felis nec justo faucibus, a volutpat eros efficitur. Aliquam erat volutpat.'
+            description: 'Organizamos fiestas inolvidables para cualquier ocasión, con un enfoque en la diversión y los detalles que harán que cada celebración sea única y especial.'
         },
         {
             image: 'src/assets/Erick WEB/FOTOS MURANO/eventos.jpg',
             title: 'Especiales',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat felis nec justo faucibus, a volutpat eros efficitur. Aliquam erat volutpat.'
+            description: 'Diseñamos y coordinamos eventos especiales, desde corporativos hasta reuniones familiares, con creatividad y profesionalismo, asegurando que cada momento sea memorable y personalizado.'
         }
     ];
 

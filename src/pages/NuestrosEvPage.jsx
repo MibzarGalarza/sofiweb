@@ -37,14 +37,14 @@ const NuestrosEventos = () => {
                                 <img className='object-cover w-80 aspect-video' src={PosadaPIZZA} alt="" />
                                 <div className='mt-3 grid justify-items-start'>
                                     <h2>POSADA PIZZA HUT</h2>
-                                    <h3>25 de mayo del 2024</h3>
+                                    <h3>25 de Diciembre del 2022</h3>
                                 </div>
                             </div>
                             <div className='grid justify-items-start'>
                                 <img className='object-cover w-80 aspect-video' src={img7} alt="" />
                                 <div className='mt-3 grid justify-items-start'>
                                     <h2>PABLO CABRERA</h2>
-                                    <h3>25 de mayo del 2024</h3>
+                                    <h3>24 de Febrero del 2020</h3>
                                 </div>
                             </div>
                         </div>

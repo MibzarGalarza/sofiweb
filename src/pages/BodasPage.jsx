@@ -31,13 +31,13 @@ const BodasPage = () => {
                     </div>
                     {/* TEXTO */}
                     <div className='grid justify-items-center bg-[#F1F1F1] w-screen h-3/5 text-center text-xl font-serif p-28'>
-                        <p className='w-1/2 text-center'> Aliquam commodo velit at pretium viverra. Donec sed pulvinar massa. Curabitur sollicitudin nisl et condimentum suscipit. Phasellus lacinia interdum lorem, quis egestas nibh scelerisque vitae.</p>
+                        <p className='w-1/2 text-center'>  Creamos bodas únicas y memorables, cuidando cada detalle para reflejar la personalidad y el amor de cada pareja. Desde ceremonias íntimas hasta grandes celebraciones, nos encargamos de que tu día especial sea tal como lo imaginaste.</p>
                         <img className='object-cover h-8 w-auto mt-5 mb-5' src={decoracionCARDS} alt="" />
                     </div>
                     {/* FOTO Y TEXTO */}
                     <div className='flex justify-center items-center p-16 gap-5'>
                         <img className='w-2/5 aspect-video object-cover' src={img5} alt="" />
-                        <p className='flex w-2/5 text-justify'>Quisque fringilla malesuada malesuada. Quisque convallis fringilla orci id luctus. Nunc augue ligula, bibendum in augue nec, tempus suscipit magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum purus sit amet nunc venenatis, vitae fringilla leo hendrerit. Aenean porttitor lorem vitae enim commodo sodales. Cras condimentum egestas enim vel sollicitudin. Suspendisse et lacus commodo: Suspendisse scelerisque lacus venenatis eros congue malesuada.</p>
+                        <p className='flex w-2/5 text-justify'>En Eventos Sofi, convertimos tu boda en una experiencia única y personalizada. Nos encargamos de cada detalle, desde la planificación hasta la ejecución, para que tú solo te enfoques en disfrutar. Con nuestra experiencia y dedicación, transformamos tus ideas en una celebración que refleja tu estilo y amor. Al elegirnos, te aseguras de tener una boda impecable, libre de preocupaciones y llena de momentos inolvidables. ¡Déjanos hacer realidad la boda de tus sueños!</p>
                     </div>
                     {/* PORTAFOLIO */}
                     <div className='grid p-20'>

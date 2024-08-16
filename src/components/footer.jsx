@@ -8,7 +8,7 @@ const FooterPage = () => {
                 <div className="mb-4">
                     <img src={logoSOFI} alt="Logo" className="mx-auto h-28" />
                 </div>
-                <p>Lorem ipsum dolor sit amet suspendisse varius. Duis cursus, mi quis viverra ornare.</p>
+                <p> Corona del Rosal 1004 Colonia Santa Fe, 34240 Durango City</p>
                 <div className="mt-4">
                     <p>(618) 171-5076</p>
                     <div className="flex justify-center space-x-4 mt-4">

@@ -29,7 +29,7 @@ const Mobiliario = () => {
                         <img className='object-cover h-8 w-auto mt-5 mb-5' src={decoracionCARDS} alt="" />
                     </div>
                     {/* PDF VIEWER */}
-                    <h1 className='font-thin text-5xl'>CATÁLOGO SOFI</h1>
+                    <h1 className='font-thin text-5xl'>Catálogo de servicios</h1>
                     <div className='flex items-center justify-center h-screen w-screen p-20'>
                         <iframe
                             src={pdfUrl3}
@@ -40,7 +40,7 @@ const Mobiliario = () => {
                         />
                     </div>
                     <div className='w-screen h-24'></div>
-                    <h1 className='font-thin text-5xl'>SILLAS</h1>
+                    <h1 className='font-thin text-5xl'>Catálogo de mobiliario</h1>
                     <div className='flex items-center justify-center h-screen w-screen p-20'>
                         <iframe
                             src={pdfUrl}
@@ -51,7 +51,7 @@ const Mobiliario = () => {
                         />
                     </div>
                     <div className='w-screen h-24'></div>
-                    <h1 className='font-thin text-5xl'>PLATOS BASE</h1>
+                    <h1 className='font-thin text-5xl'>Catálogo de loza</h1>
                     <div className='flex items-center justify-center h-screen w-screen p-20'>
                         <iframe
                             src={pdfUrl2}
