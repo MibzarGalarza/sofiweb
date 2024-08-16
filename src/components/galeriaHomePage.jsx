@@ -1,20 +1,20 @@
 import React from 'react';
 
 const Gallery = () => {
-    const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
+    const decoracionCARDS = './assets/Erick WEB/decoracion textos.png';
 
-    const img1 = 'src/assets/Erick WEB/FOTOS MURANO/Parties.jpg';
-    const img2 = 'src/assets/Erick WEB/FOTOS MURANO/gallery5.jpg';
-    const img3 = 'src/assets/Erick WEB/FOTOS MURANO/gallery6.jpg';
-    const img4 = 'src/assets/Erick WEB/FOTOS MURANO/gellery1.jpeg';
-    const img5 = 'src/assets/Erick WEB/FOTOS MURANO/gallery9.jpg';
-    const img6 = 'src/assets/Erick WEB/FOTOS MURANO/gallery8.jpg';
-    const img7 = 'src/assets/Erick WEB/FOTOS MURANO/gallery4.jpg';
-    const img8 = 'src/assets/Erick WEB/FOTOS MURANO/gallery12.jpeg';
-    const img9 = 'src/assets/Erick WEB/FOTOS MURANO/gallery7.jpg';
-    const img10 = 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/gallery11.jpeg';
-    const img11 = 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/gallery10.jpeg';
-    const img12 = 'src/assets/Erick WEB/FOTOS MURANO/gellery2.jpeg';
+    const img1 = './assets/Erick WEB/FOTOS MURANO/Parties.jpg';
+    const img2 = './assets/Erick WEB/FOTOS MURANO/gallery5.jpg';
+    const img3 = './assets/Erick WEB/FOTOS MURANO/gallery6.jpg';
+    const img4 = './assets/Erick WEB/FOTOS MURANO/gellery1.jpeg';
+    const img5 = './assets/Erick WEB/FOTOS MURANO/gallery9.jpg';
+    const img6 = './assets/Erick WEB/FOTOS MURANO/gallery8.jpg';
+    const img7 = './assets/Erick WEB/FOTOS MURANO/gallery4.jpg';
+    const img8 = './assets/Erick WEB/FOTOS MURANO/gallery12.jpeg';
+    const img9 = './assets/Erick WEB/FOTOS MURANO/gallery7.jpg';
+    const img10 = './assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/gallery11.jpeg';
+    const img11 = './assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/gallery10.jpeg';
+    const img12 = './assets/Erick WEB/FOTOS MURANO/gellery2.jpeg';
 
     return (
         <div className="w-screen font-serif p-16">
