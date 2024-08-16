@@ -4,17 +4,17 @@ import Card from './card';
 const CARDSpaquetes = () => {
   const cardsData = [
     {
-      image: 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg',
+      image: './assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg',
       title: 'Bodas',
       description: 'Discover'
     },
     {
-      image: 'src/assets/Erick WEB/FOTOS MURANO/Parties.jpg',
+      image: './assets/Erick WEB/FOTOS MURANO/Parties.jpg',
       title: 'Fiestas',
       description: 'Discover'
     },
     {
-      image: 'src/assets/Erick WEB/FOTOS MURANO/eventos.jpg',
+      image: './assets/Erick WEB/FOTOS MURANO/eventos.jpg',
       title: 'Especiales',
       description: 'Discover'
     }

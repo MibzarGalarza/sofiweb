@@ -5,12 +5,12 @@ import Gallery from '../components/galeriaHomePage';
 import FooterPage from '../components/footer';
 
 const Home = () => {
-  const bodaHomeImg = 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg';
-  const decoracionCARDS = 'src/assets/Erick WEB/decoracion textos.png';
-  const aboutUSimg = 'src/assets/Erick WEB/FOTOS MURANO/servicios adicionales/PAGES/aboutUSimg.jpeg';
-  const startTodayIMG = 'src/assets/Erick WEB/FOTOS MURANO/pilares.jpeg';
-  const insta = 'src/assets/Erick WEB/FOTOS MURANO/Instagram.png'
-  const face = 'src/assets/Erick WEB/FOTOS MURANO/facebook.png'
+  const bodaHomeImg = './assets/Erick WEB/FOTOS MURANO/servicios adicionales/servicios adicionales/home.jpeg';
+  const decoracionCARDS = './assets/Erick WEB/decoracion textos.png';
+  const aboutUSimg = './assets/Erick WEB/FOTOS MURANO/servicios adicionales/PAGES/aboutUSimg.jpeg';
+  const startTodayIMG = './assets/Erick WEB/FOTOS MURANO/pilares.jpeg';
+  const insta = './assets/Erick WEB/FOTOS MURANO/Instagram.png'
+  const face = './assets/Erick WEB/FOTOS MURANO/facebook.png'
 
 
   return (
