@@ -8,7 +8,7 @@ export default function App() {
     <BrowserRouter>
       <Suspense fallback={<>Cargando...</>}>
         <AppRouter />
-      </Suspense>
+      </Suspense> 
     </BrowserRouter>
   )
 }
